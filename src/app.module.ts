@@ -11,11 +11,11 @@ import { AuthModule } from './auth/auth.module';
 @Module({
   imports: [TypeOrmModule.forRoot({
     type: 'postgres',
-    host: 'dpg-ci500gdgkuvj7bjsniug-a',
+    host: 'dpg-ci507rlgkuvj7bk0m9fg-a',
     port: 5432,
-    username: 'r_jg1f_user',
-    password: '07TPu9SHY7It0KClJJ47gTNq79gkd5Wf',
-    database: 'r_jg1f',
+    username: 'agriculture_user',
+    password: 'lJvcFuZ9kdoYzdYZOPfHaARfPNZgjGPW',
+    database: 'agriculture',
     autoLoadEntities: true,
     synchronize: true,
     //type: 'mysql',
