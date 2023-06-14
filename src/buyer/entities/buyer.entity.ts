@@ -1,5 +1,5 @@
 import { Column,Entity,PrimaryGeneratedColumn } from "typeorm";
-@Entity({name:'Buyer'})
+@Entity()
 export class buyerEntity{
  @PrimaryGeneratedColumn()
  id:number;
